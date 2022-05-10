@@ -4,7 +4,7 @@ const port = 3000;
 const addrFrom = '0.0.0.0';
 
 app.get("/", (req,res) => {
-    res.send("hello i'm nodejs app v4!!")
+    res.send("Hi! you finished cicd 실습!")
 })
 app.listen(port, addrFrom, () => {
     console.log('Broker API is listening on port'+port);
